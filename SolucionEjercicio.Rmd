@@ -24,3 +24,47 @@ cto2 <- robustbase::Animals2
 ```
 
 
+
+```{r}
+print(dim(cto1))
+print(head(cto2))
+```
+```{r}
+tail(cto1)
+```
+
+```{r}
+str(cto1)
+```
+
+```{r}
+colnames(cto1)
+```
+```{r}
+colnames(cto2)
+```
+
+
+```{r}
+n1<-rownames(cto1)
+```
+```{r}
+n2<-rownames(cto2)
+```
+
+
+
+```{r}
+commonAnimals  <-intersect(n1,n2)
+(commonAnimals)
+```
+```{r}
+diferentes <- setdiff(n1,n2)
+(diferentes)
+```
+
+
+
+
+
+
