@@ -1,6 +1,6 @@
 ---
 title: "SolucionEjercicio"
-author: "ruben"
+author: "ruben castilo carrasco"
 date: "2023-10-11"
 output:
   pdf_document: default
