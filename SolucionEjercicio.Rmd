@@ -1,0 +1,26 @@
+---
+title: "SolucionEjercicio"
+author: "ruben"
+date: "2023-10-11"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(MASS)
+library(robustbase)
+```
+
+```{r}
+
+cto1 <- mammals
+cto2 <- robustbase::Animals2
+
+```
+
+
